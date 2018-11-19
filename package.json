@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-jlarmst",
+  "version": "0.0.4",
+  "description": "jlarmst’s personal and shareable eslint config",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "bump": "npm version patch"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:jlarmstrongiv/eslint-config-jlarmst.git",
+  "author": "John Armstrong <jlarmst@g.clemson.edu>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-plugin-jest": "^22.0.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "devDependencies": {
+    "husky": "^1.1.4"
+  }
+}
