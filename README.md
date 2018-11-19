@@ -15,6 +15,7 @@ module.exports = {
 
 ## Peer Packages
 `yarn add --dev eslint eslint-plugin-react eslint-plugin-jest babel-eslint`
+
 `npx install-peerdeps --dev eslint-config-jlarmst`
 
 If `eslint` is installed globally, then `eslint-config-jlarmst` and its peer dependencies must also be installed globally.
